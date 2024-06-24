@@ -55,6 +55,7 @@
 	},
 	"scripts": {
   "start": "cross-env NODE_OPTIONS='--max-old-space-size=4096' react-scripts --openssl-legacy-provider start",
+"predeploy":"npm run build",
   "build": "cross-env NODE_OPTIONS='--max-old-space-size=4096' react-scripts --openssl-legacy-provider build",
   "test": "react-scripts test",
   "eject": "react-scripts eject",
