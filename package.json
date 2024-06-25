@@ -1,5 +1,5 @@
 {
-	"homepage":"https://bibiashaiotreeminds.github.oi/frontend",
+	"homepage": "https://bibiashaiotreeminds.github.oi/frontend",
 	"name": "vision-ui-dashboard-react",
 	"version": "3.0.0",
 	"private": true,
@@ -38,7 +38,7 @@
 		"react-icons": "^4.3.1",
 		"react-router-dom": "^5.2.0",
 		"stylis": "4.0.10",
-		"stylis-plugin-rtl": "2.1.0",
+		"stylis-plugin-rtl": "^2.1.0",
 		"uuid": "8.3.2",
 		"web-vitals": "1.0.1"
 	},
@@ -53,15 +53,14 @@
 		"react-scripts": "^5.0.1"
 	},
 	"scripts": {
-  "start": "cross-env NODE_OPTIONS='--max-old-space-size=4096' react-scripts --openssl-legacy-provider start",
-"predeploy":"npm run build",
-"deploy":"gh-pages -d build",
-  "build": "cross-env NODE_OPTIONS='--max-old-space-size=4096' react-scripts --openssl-legacy-provider build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
-}
-,
+		"start": "cross-env NODE_OPTIONS='--max-old-space-size=4096' react-scripts --openssl-legacy-provider start",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"build": "cross-env NODE_OPTIONS='--max-old-space-size=4096' react-scripts --openssl-legacy-provider build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+	},
 	"eslintConfig": {
 		"extends": [
 			"react-app",
